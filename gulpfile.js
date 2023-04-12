@@ -18,7 +18,7 @@ function browsersync() {
 
 function scripts() {
   return src([
-    'src/scripts/main.js',
+    'src/scripts/*.js',
   ])
 
   .pipe(concat('main.min.js'))
@@ -60,7 +60,7 @@ function cleandist() {
 function buildcopy() {
   return src([
     'src/css/**/*.min.css',
-    'src/scripts/**/*.min.js',
+    'src/scripts/**/*.js',
     'src/images/dest/**/*',
     'src/**/*.html',
   ], { base: 'src' })
