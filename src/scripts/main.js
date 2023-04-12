@@ -1,14 +1,14 @@
-import './blocks/sliderHeader.js';
-import './blocks/sliderAbout.js';
+import './sliderHeader.js';
+import './sliderAbout.js';
 
-import './blocks/video.js';
-import './blocks/techButtons.js';
-import './blocks/preventPageScroll.js';
-import './blocks/modal.js';
-import './blocks/accordion.js';
-import './blocks/dropdown.js';
-import './blocks/cardSystemSelect.js';
-import './blocks/expirationDate.js';
+import './video.js';
+import './techButtons.js';
+import './preventPageScroll.js';
+import './modal.js';
+import './accordion.js';
+import './dropdown.js';
+import './cardSystemSelect.js';
+import './expirationDate.js';
 
-import './blocks/formValidation.js';
-import './blocks/formInputshover.js';
+import './formValidation.js';
+import './formInputshover.js';
