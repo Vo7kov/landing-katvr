@@ -1,7 +1,38 @@
-@import "./utils/normalize";
-@import "./utils/variables";
+// Utils
 @import "./utils/mixins";
+@import "./utils/variables";
+@import "./utils/normalize";
 
+// Global blocks
 @import "./blocks/page";
 @import "./blocks/container";
 @import "./blocks/grid";
+
+// Blocks
+@import "./blocks/icon";
+@import "./blocks/top-actions";
+@import "./blocks/button";
+@import "./blocks/video";
+@import "./blocks/dropdown";
+@import "./blocks/inputs";
+
+// Sliders
+@import "./blocks/sliderAbout";
+@import "./blocks/sliderHeader";
+
+// Modals
+@import "./blocks/modal";
+@import "./blocks/faq";
+@import "./blocks/help";
+
+// Sections
+@import "./blocks/header";
+@import "./blocks/menu";
+@import "./blocks/buy";
+@import "./blocks/pay";
+@import "./blocks/testimonials";
+@import "./blocks/about";
+@import "./blocks/tech";
+@import "./blocks/whyKatLoco";
+@import "./blocks/contact";
+@import "./blocks/footer";
